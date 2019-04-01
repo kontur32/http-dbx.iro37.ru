@@ -1,0 +1,14 @@
+<package xmlns="http://expath.org/ns/pkg"
+         name="http://www.iro37.ru/lib/html"
+         abbrev="html"
+         version="1.0"
+         spec="1.0">
+
+   <title>iro37.ru/html library</title>
+
+   <xquery>
+      <namespace>http://www.iro37.ru/xquery/lib/html</namespace>
+      <file>html.xqm</file>
+   </xquery>
+
+</package>
