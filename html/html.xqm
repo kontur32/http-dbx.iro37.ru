@@ -1,8 +1,8 @@
-module namespace htmlZT =  "http://www.iro37.ru/xquery/lib/html";
+module namespace html =  "http://www.iro37.ru/xquery/lib/html";
 
 import module namespace functx = "http://www.functx.com";
 
-declare function htmlZT:fillHtmlTemplate( $template, $content )
+declare function html:fillHtmlTemplate( $template, $content )
 {
   let $changeFrom := 
       for $i in map:keys( $content )
