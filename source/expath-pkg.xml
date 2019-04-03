@@ -10,5 +10,7 @@
       <namespace>http://www.iro37.ru/xquery/lib/html</namespace>
       <file>html.xqm</file>
    </xquery>
+   
+   <dependency package="http://www.functx.com" semver="1.0"/>
 
 </package>
